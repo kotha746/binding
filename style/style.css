@@ -5,8 +5,9 @@ body {
 
 .nav {
     display: flex;
-    padding: 10px 0px;
+    padding: 10px 20px;
     border-bottom: 1px dashed black;
+    flex-direction: row;
 }
 
 .header {
@@ -145,3 +146,30 @@ body {
     font-size: 80px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+   
+    .section_one {
+        padding: 15px 10px;
+    }
+
+    .section_two {
+        padding: 15px 10px;
+    }
+
+    .section_three {
+        padding: 15px 10px;
+    }
+  
+    .section_four {
+        padding: 15px 10px;
+    }
+
+    .quote_two {
+        font-size: 40px;
+    }
+
+    .quote_one {
+        font-size: 20px;
+    }
+  }
