@@ -1,5 +1,6 @@
 body {
     background-color: #FFF5EE;
+
 }
 
 
@@ -51,6 +52,7 @@ body {
     height: auto;
     font-family: 'Libre Baskerville', serif;
     padding: 30px 100px;
+    
 
 }
 
@@ -89,7 +91,8 @@ body {
     background-color: white;
     border: 1px solid black;
     margin: 20px;
-    padding: 10px;
+    margin-right: 500px;
+    padding: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
 .author {
@@ -140,6 +143,7 @@ body {
     margin: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 500px;
 }
 
 .quote_one {
@@ -175,5 +179,14 @@ body {
 
     .quote_one {
         font-size: 20px;
+    }
+
+    .text_box {
+        margin: 20px;
+        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .quote {
+        margin: 20px;
     }
   }
