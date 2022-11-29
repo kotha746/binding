@@ -51,7 +51,7 @@
     margin: auto;
     text-align: center;
     font-size: 30px;
-    font-family: Orpheus;
+    font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -67,7 +67,7 @@
 .content {
     display: flex;
     background-color: #FFF9E4;
-    max-height: 1150px;
+    max-height: 1160px;
 }
 
 .date {
@@ -76,7 +76,7 @@
 
 .text {
     margin: 40px;
-    font-family: Orpheus;
+    font-family: 'Libre Baskerville', serif;
     flex-direction: column;
     overflow: scroll;
     /* height: 100%; */
