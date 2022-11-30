@@ -163,7 +163,7 @@ body {
     .text {
         padding: 30px 20px;
         margin: 10px 0px;
-        overflow:visible;
+        /* overflow:visible; */
         /* max-height: 1150px; */
         background-color: #FFF9E4;
         
@@ -193,7 +193,7 @@ body {
 
     .quote {
        background-color: white;
-       visibility: hidden;
+       /* visibility: hidden; */
 
     }
     
