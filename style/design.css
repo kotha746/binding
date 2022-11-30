@@ -532,5 +532,17 @@
     font-family: Helvetica;
 }
 
+.row_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #333333;
+    font-family: Helvetica;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-top: 1px solid #333333;
+
+}
+
 
 }
