@@ -408,7 +408,7 @@
     max-height: 400px;
     padding: 20px;
     border: 1px solid black;
-    font-size: 12px;
+    font-size: 14px;
     font-family: Helvetica;
 }
 
@@ -538,7 +538,7 @@
     justify-content: space-evenly;
     color: #333333;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
     border-top: 1px solid #333333;
 
