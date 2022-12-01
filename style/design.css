@@ -408,8 +408,10 @@
     max-height: 400px;
     padding: 20px;
     border: 1px solid black;
-    font-size: 14px;
+    font-size: 28px;
     font-family: Helvetica;
+    background-color: #266BAE;
+    color: white;
 }
 
 .text_box_two {
@@ -421,6 +423,7 @@
     border: 1px solid black;
     font-size: 16px;
     font-family: Helvetica;
+    
 }
 
 .text_box_three {
@@ -432,6 +435,8 @@
     border: 1px solid black;
     font-size: 20px;
     font-family: Helvetica;
+    background-color: #EB3223;
+    color: white;
 }
 
 .text_box_four {
@@ -443,6 +448,8 @@
     border: 1px solid black;
     font-size: 20px;
     font-family: Helvetica;
+    background-color: #FBD96B;
+    color: black;
 }
 
 .text_box_five {
@@ -465,6 +472,8 @@
     border: 1px solid black;
     font-size: 28px;
     font-family: Helvetica;
+    background-color: #266BAE;
+    color: white;
 }
 
 .text_box_seven {
@@ -486,6 +495,8 @@
     border: 1px solid black;
     font-size: 28px;
     font-family: Helvetica;
+    background-color: #FBD96B;
+    color: black;
 }
 
 .text_box_nine {
@@ -508,6 +519,8 @@
     border: 1px solid black;
     font-size: 24px;
     font-family: Helvetica;
+    background-color: #266BAE;
+    color: white;
 }
 
 .text_box_eleven {
@@ -528,8 +541,10 @@
     max-height: 400px;
     padding: 20px;
     border: 1px solid black;
-    font-size: 28px;
+    font-size: 14px;
     font-family: Helvetica;
+    background-color: #EB3223;
+    color: white;
 }
 
 .row_footer {
@@ -545,4 +560,308 @@
 }
 
 
+}
+
+@media print {
+
+    .nav {
+        display: flex;
+        padding: 10px 20px;
+        border-bottom: 1px solid #333333;
+        flex-direction: row;
+        background-color: white;
+        color: #333333;
+    }
+    .header {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        flex: 70%;
+        margin-top: 10px;
+        margin: auto;
+        text-align: center;
+        color: #333333;
+    }
+    
+    .nav_button {
+        justify-content: end;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        color: #333333;
+    }
+    
+    .row_one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #333333;
+        font-family: Helvetica;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #333333;
+    
+    }
+    
+    .content_one {
+        margin: 10px 50px;
+        display: flex;
+        flex-direction: row;
+        border: 0px solid red;
+        padding: 10px;
+    
+        
+    }
+    
+    
+    .box {
+        border: 1px solid #333333;
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+        
+    }
+    
+    
+    .row_two {
+        color: #333333;
+        font-family: Helvetica;
+        font-size: 0px;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid #333333;
+        background-color: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    
+    .content_two {
+        margin: 0px 0px;
+        text-align: center;
+        font-size: 0px;
+        visibility: hidden;
+    }
+    
+    .content_two_mobile{
+        visibility:visible;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .container {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 35px 50px;
+        box-sizing: border-box;
+    }
+    
+    .box_container {
+        display: grid;
+        grid-auto-columns: 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    
+    .text_box_one {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 14px;
+        font-family: Helvetica;
+    }
+    .text_box_one:hover {
+        background-color: #FBD96B;
+    }
+    
+    .text_box_two {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 15px;
+        font-family: Helvetica;
+    }
+    
+    .text_box_two:hover {
+        background-color: #266BAE;
+        color: white;
+    }
+    
+    
+    .text_box_three {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    
+    .text_box_three:hover {
+        background-color: #EB3223;
+        color: white;
+    }
+    
+    .text_box_four {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 20px;
+        font-family: Helvetica;
+    }
+    
+    .text_box_four:hover {
+        background-color: #266BAE;
+        color: white;
+    }
+    
+    
+    .text_box_five {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 24px;
+        font-family: Helvetica;
+    }
+    .text_box_five:hover {
+        background-color: #FBD96B;
+    }
+    
+    .text_box_six {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 28px;
+        font-family: Helvetica;
+    }
+    
+    .text_box_six:hover {
+        background-color: #266BAE;
+        color: white;
+    }
+    
+    .text_box_seven {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 22px;
+        font-family: Helvetica;
+    }
+    .text_box_seven:hover {
+        background-color: #EB3223;
+        color: white;
+    }
+    
+    .text_box_eight {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 26px;
+        font-family: Helvetica;
+    }
+    .text_box_eight:hover {
+        background-color: #266BAE;
+        color: white;
+    }
+    .text_box_nine {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 22px;
+        font-family: Helvetica;
+    }
+    .text_box_nine:hover {
+        background-color: #FBD96B;
+    }
+    
+    .text_box_ten {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 24px;
+        font-family: Helvetica;
+    }
+    
+    .text_box_ten:hover {
+        background-color: #FBD96B;
+    }
+    
+    .text_box_eleven {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 24px;
+        font-family: Helvetica;
+    }
+    .text_box_eleven:hover {
+        background-color: #EB3223;
+        color: white;
+    }
+    
+    
+    .text_box_twelve {
+        display: flex;
+        height: auto;
+        min-height: 200px;
+        max-height: 200px;
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 28px;
+        font-family: Helvetica;
+    }
+    .text_box_twelve:hover {
+        background-color: #266BAE;
+        color: white;
+    }
+    
+    .row_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #333333;
+        font-family: Helvetica;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border-top: 1px solid #333333;
+    
+    }
+    
+
+    
 }
