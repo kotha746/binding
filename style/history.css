@@ -69,6 +69,13 @@
     color: #333333;
 }
 
+.author {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+
 .timeline {
     /* height: 100vh; */
     /* position: absolute; */
